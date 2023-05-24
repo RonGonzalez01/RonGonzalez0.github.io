@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario de Registro</h1>
+
+        <form id="signup-form">
+            <div class="form-container">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <span id="nombre-error" class="error-message"></span>
+            </div>
+
+            <div class="form-container">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+                <span id="apellido-error" class="error-message"></span>
+            </div>
+
+            <div class="form-container">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="text" id="correo" name="correo">
+                <span id="correo-error" class="error-message"></span>
+            </div>
+
+            <div class="form-container"></div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
