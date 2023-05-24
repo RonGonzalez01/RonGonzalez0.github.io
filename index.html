@@ -1,1 +1,33 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio de sesión y registro</title>
+  <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>Iniciar sesión</h2>
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Correo electrónico" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Iniciar sesión</button>
+      </form>
+      <p>¿Aún no tienes una cuenta? <a href="#" id="showRegisterForm">Regístrate aquí</a></p>
+    </div>
+    
+    <div class="form-container hidden" id="registerFormContainer">
+      <h2>Registro</h2>
+      <form id="registerForm">
+        <input type="text" id="fullName" placeholder="Nombre completo" required>
+        <input type="email" id="registerEmail" placeholder="Correo electrónico" required>
+        <input type="password" id="registerPassword" placeholder="Contraseña" required>
+        <button type="submit">Registrarse</button>
+      </form>
+      <p>¿Ya tienes una cuenta? <a href="#" id="showLoginForm">Inicia sesión aquí</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
