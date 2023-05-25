@@ -1,5 +1,8 @@
 body {
   background-color: #f2f2f2;
+  background-image: url("./background.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, sans-serif;
 }
 

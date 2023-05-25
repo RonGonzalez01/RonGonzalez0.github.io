@@ -23,10 +23,8 @@
 
     <script type="module">
         // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
-        import { getAuth } from "firebase/auth";
-
-        // TODO: Add SDKs for Firebase products that you want to use
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+               // TODO: Add SDKs for Firebase products that you want to use
         // https://firebase.google.com/docs/web/setup#available-libraries
 
         // Your web app's Firebase configuration
@@ -38,14 +36,14 @@
             messagingSenderId: "774582433274",
             appId: "1:774582433274:web:dbf0191cfa7a7761a26043"
         };
-        const email = "ronnie.gonzalez@epn.edu.ec";
+        const email = "ronniez@epn.edu.ec";
         const password = "753456123";
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
 
         // Initialize Firebase Authentication and get a reference to the service
-        import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
 
         const auth = getAuth();
         createUserWithEmailAndPassword(auth, email, password)
